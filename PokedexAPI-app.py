@@ -1,7 +1,6 @@
 #Importing from different libraries
 import tkinter as tk
 import requests
-import json
 import random
 from tkinter import *
 from PIL import Image, ImageTk
