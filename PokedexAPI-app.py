@@ -40,7 +40,7 @@ def pokemon_info():
     if pokemon_info:
         update_pokedex(pokemon_info)
     else:
-        messagebox.showerror("Error: Invalid Pokemon or ID", f"{pokemon_name} is not a vaid Pokemon or ID number")
+        messagebox.showerror("Error: Invalid Pokemon or ID", f"{pokemon_name} is not a valid Pokemon or ID number")
 
 def random_pokemon():
     random_url = "https://pokeapi.co/api/v2/pokemon/"
